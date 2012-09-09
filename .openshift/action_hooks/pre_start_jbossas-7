@@ -13,5 +13,5 @@
 # Application start and stop is subject to different timeouts
 # throughout the system.
 
-export JAVA_OPTS="$JAVA_OPTS -DconfigDir=\"$OPENSHIFT_RUNTIME_DIR/data/configs\""
+export JAVA_OPTS="$JAVA_OPTS -DConfigDir="$OPENSHIFT_RUNTIME_DIR/data/configs"
 
