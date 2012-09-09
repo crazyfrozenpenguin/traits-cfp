@@ -13,5 +13,5 @@
 # Application start and stop is subject to different timeouts
 # throughout the system.
 
-export JAVA_OPTIONS="-DconfigDir=/var/lib/stickshift/7f84bc95d6194700a81dc0cedcc85e37/app-root/data/configs"
+export JAVA_OPTIONS="-DconfigDir=data/configs"
 
