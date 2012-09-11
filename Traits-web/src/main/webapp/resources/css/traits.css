@@ -316,7 +316,11 @@ canvas {
 	position: fixed;
 	top: -80px;
 	right: -110px;
+	-ms-transform:rotate(-132deg);
+	-moz-transform:rotate(-132deg);
 	-webkit-transform:rotate(-132deg);
+	-o-transform:rotate(-132deg);
+	transform:rotate(-132deg);
 }
 
 .buttonImage, 
