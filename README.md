@@ -1,5 +1,5 @@
-Traits
-=====================
+Traits - Properties Management Application
+==========================================
 
 What is it?
 -----------
