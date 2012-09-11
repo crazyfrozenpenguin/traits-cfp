@@ -103,6 +103,10 @@ header:before {
 	float: left;
 }
 
+div[role='main'] {
+	clear: both;
+}
+
 .viewportBox {
     width: 960px;
     overflow-x: hidden;
