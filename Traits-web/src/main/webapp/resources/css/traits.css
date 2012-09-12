@@ -280,58 +280,56 @@ table tbody td{
 }
 
 table tbody tr td {
-    background-color:#444;
-    color:#444;
-    border-bottom:1px solid #444;
-    background:-webkit-gradient(
+    background-color: #444;
+    color: #999;
+    border-bottom: 1px solid #444;
+    background: -webkit-gradient(
         linear,
         left bottom,
         left top,
         color-stop(0.39, rgb(189,189,189)),
         color-stop(0.7, rgb(224,224,224))
         );
-    background:-moz-linear-gradient(
+    background: -moz-linear-gradient(
         center bottom,
         rgb(189,189,189) 39%,
         rgb(224,224,224) 70%
         );
-    background:-o-linear-gradient(
+    background: -o-linear-gradient(
     	bottom,
         rgb(189,189,189) 39%,
         rgb(224,224,224) 70%
         );
-    background:-ms-linear-gradient(
-        center bottom,
-        rgb(189,189,189) 39%,
-        rgb(224,224,224) 70%
+    background: -ms-linear-gradient(
+        #BDBDBD 39%,
+        #E0E0E0 70%
         );
-    text-shadow:1px 1px 1px #fff;
+    text-shadow: 1px 1px 1px #fff;
     text-align: center;
 }
 
 table tr:hover td {
-    background-color:#3A6682;
-    color:#ddd;
-    border-bottom:1px solid #444;
-    background:-webkit-gradient(
+    background-color: #3A6682;
+    color: #ddd;
+    border-bottom: 1px solid #444;
+    background: -webkit-gradient(
         linear,
         left bottom,
         left top,
         color-stop(0.39, #4A7692),
         color-stop(0.7, #3A6682)
         );
-    background:-moz-linear-gradient(
+    background: -moz-linear-gradient(
         center bottom,
         #4A7692 39%,
         #3A6682 70%
         );
-    background:-o-linear-gradient(
+    background: -o-linear-gradient(
         bottom,
         #4A7692 39%,
         #3A6682 70%
         );
-    background:-ms-linear-gradient(
-        center bottom,
+    background: -ms-linear-gradient(
         #4A7692 39%,
         #3A6682 70%
         );
